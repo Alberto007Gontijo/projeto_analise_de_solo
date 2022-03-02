@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(82, 184, 73);
+}
+main {
+    background-color: bisque;
+}
+
+#container {
+    display:flex ;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;  
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgb(30, 128, 51);
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 50px;
+    background: rgb(171, 171, 196);
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    }
+#subtitulo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+#observacoes {
+    font-family: sans-serif; color: rgb(45, 148, 45); 
+    flex-direction: row;
+    background: rgb(75, 75, 189);
+    border-radius: 20px;
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+    font-weight: bolder;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+#titulo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+#ph {
+    margin-top: 5%;
+}
+#ph1 {
+    margin-right: 70px;
+}
+#p {
+    margin-top: 2%;
+}
+#p1 {
+    margin-right: 20px;
+}
+#k {
+    margin-top: 2%;
+}
+#k1 {
+    margin-right: 18px;
+}
+#ca {
+    margin-top: 2%;
+}
+#ca1 {
+    margin-right: 0px;
+}
+#na {
+    margin-top: 2%;
+}
+#na1 {
+    margin-right: 3px;
+}
+#mg {
+    margin-top: 2%;
+}
+#mg1 {
+    margin-right: 2px;
+}
+#fe {
+    margin-top: 2%;
+}
+#fe1 {
+    margin-right:17px;
+}
+#s {
+    margin-top: 2%;
+}
+#s1 {
+    margin-right: 25px;
+}
+#mn {
+    margin-top: 2%;
+}
+#mn1 {
+    margin-right: 16px;
+}
+#cu {
+    margin-top: 2%;
+}
+#cu1 {
+    margin-right: 16px;
+}
+#b {
+    margin-top: 2%;
+}
+#b1 {
+    margin-right: 25px;
+}
+#zn {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#zn1 {
+    margin-right: 16px;
+    
+}
+#calcular {
+    margin-top: 5%;
+    font-size: 17px; color:green; vertical-align: 16px; 
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 28px;
+    box-shadow: 20px;
+    margin-right: 20%;
+    margin-left: 35%;
+    
+}
+#limpar {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 17px; color:rgb(179, 33, 101); vertical-align: 16px; 
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 28px;
+    box-shadow: 20px;
+}
+  
+  

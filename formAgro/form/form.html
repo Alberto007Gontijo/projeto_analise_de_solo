@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" media="screen" />
+    <title>Formulário de inscrição</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro de Produtores</h1>
+        <p id="subtitulo">Preencha com suas informações</p>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Propriedade</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div class="campo">
+                <label for="minicipio"><strong>Município</strong></label>
+                <input type="text" name="municipio" id="municipio" required>
+            </div>       
+
+            <div class="campo">
+                <label for="estado"><strong>Estado</strong></label>
+                <input type="text" name="estado" id="estado" required>
+            </div>
+
+            <div class="campo">
+                <label><strong>Telefone</strong></label>
+                <input type="tel" name="telefone" id="telefone" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual a cultura que você pretende imprementar em sua área?</strong></label>
+            
+            <input type="radio" id="milho" name="cultura" value="milho" checked>
+            <label for="milho">Milho</label>
+            
+            <input type="radio" id="cana" name="cultura" value="cana">
+            <label for="cana">Cana de açucar</label>
+            
+            <input type="radio" id="sorgo" name="cultura" value="sorgo">
+            <label for="sorgo">Sorgo</label>
+            
+            <input type="radio" id="pastagem" name="cultura" value="pastagem">Pastagem
+            <label for="pastagem">Pastagem</label>
+
+        </div>
+        <div class="campo">
+            <label><strong>Mês de Plantio</strong></label>
+            <select id="mes_de_plantio">
+                <option selected disabled value="">Selecione</option>
+                <option>Janeiro</option>
+                <option>Fevereiro</option>
+                <option>Março</option>
+                <option>Abril</option>
+                <option>Maio</option>
+                <option>Junho</option>
+                <option>Julho</option>
+                <option>Agosto</option>
+                <option>Setembro</option>
+                <option>Outubro</option>
+                <option>Novembro</option>
+                <option>Dezembro</option>              
+
+            </select>
+        </div>
+        <fieldset>
+            <div class="campo">
+                <label for=""><strong>Selecione o serviço que você pretende contratar:</strong></label><br><br>
+                <input type="checkbox" id="servico1" name="servico2" value="Subsolagem">
+                <label for="servico1">Subsolagem</label>
+                <input type="checkbox" id="servico2" name="servico2" value="Aragem">
+                <label for="servico2">Aragem</label>
+                <input type="checkbox" id="servico3" name="servico3" value="Gradagem">
+                <label for="servico3">Gradagem</label>
+                <input type="checkbox" id="servico4" name="servico4" value="Plantio">
+                <label for="servico4">Plantio</label>
+                <input type="checkbox" id="servico5" name="servico5" value="Adubação">
+                <label for="servico5">Adubação</label>
+                <input type="checkbox" id="servico6" name="servico6" value="Pragas">
+                <label for="servico6">Controle de Pragas</label>
+                <input type="checkbox" id="servico7" name="servico7" value="Daninhas">
+                <label for="servico7">Controle de Ervas Daninhas</label>
+                <input type="checkbox" id="servico8" name="servico8" value="Colheita">
+                <label for="servico8">Colheita</label>
+
+            </div>
+        </fieldset>
+        <div class="campo">
+            <br>
+            <label for=""><strong>Observações</strong></label>
+            <textarea rows="10" style="width: 26em;" id="observacoes" name="observacoes"></textarea>
+        </div>
+        <button class="botao" type="submit"><strong>Enviar</strong></button>
+    </form>
+    
+</body>
+</html>
